@@ -4,6 +4,9 @@
 :source-highlighter: highlight.js
 :author: Stefan Joosten <stefan@atcomputing.nl>
 :date: 2024-01-09
+:imagesdir: images/
+
+include::footer.adoc[]
 
 include::01-intro.adoc[]
 

@@ -1,0 +1,28 @@
+[subs="attributes"]
+++++
+<script type="text/javascript">
+    window.addEventListener("load", function() {
+    	Reveal.configure({
+          keyboard: {
+             39: 'next', // Right Arrow
+             37: 'prev'  // Left Arrow
+          }
+        });
+    } );
+</script>
+
+<script type="text/javascript">
+    window.addEventListener("load", function() {
+
+        revealDiv = document.querySelector("body div.reveal")
+        footer = document.getElementById("schauderhaft-footer");
+        revealDiv.appendChild(footer);
+
+    } );
+</script>
+<div id="schauderhaft-footer" class="footer">
+    <span class="element"><img src="images/AT_logo.png" width="48"></span>
+    <span class="element"></span>
+    <span class="element">@stejoo</span>
+</div>
+++++
