@@ -1,0 +1,70 @@
+== Deploy Pulp
+
+Multi-process container image
+
+* Easy to set up
+* All-in-one
+* Podman
+
+
+=== Pull and run?
+
+Yes!
+
+Follow the link:https://docs.pulpproject.org/pulp_oci_images/multi-process-images[instructions].
+
+
+=== Directories
+
+Persistent storage:
+
+[source,bash]
+--
+$ mkdir -p \
+  containers \
+  pgsql \
+  pulp_storage/tmp \
+  settings/certs \
+--
+
+=== Settings
+
+Create file `settings/settings.py`:
+
+[source,bash]
+--
+CONTENT_ORIGIN='http://$(hostname):8080'
+ANSIBLE_API_HOSTNAME='http://$(hostname):8080'
+ANSIBLE_CONTENT_HOSTNAME='http://$(hostname):8080/pulp/content'
+CACHE_ENABLED=True
+--
+
+=== Start your Pulp
+
+[source,bash]
+--
+$ podman run --detach \
+             --publish 8080:80 \
+             --name pulp \
+             --volume "$(pwd)/settings":/etc/pulp:Z \
+             --volume "$(pwd)/pulp_storage":/var/lib/pulp:Z \
+             --volume "$(pwd)/pgsql":/var/lib/pgsql:Z \
+             --volume "$(pwd)/containers":/var/lib/containers:Z \
+             --device /dev/fuse \
+             pulp/pulp
+--
+
+=== What is the magic word?
+
+[source,bash]
+--
+$ podman exec -it pulp bash -c 'pulpcore-manager reset-admin-password'
+Please enter new password for user "admin":
+--
+
+
+=== Automation please
+
+Of course I made an Ansible Playbook
+
+Demo?

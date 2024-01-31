@@ -1,0 +1,21 @@
+== Ansible
+
+Infrastructure mostly managed by Ansible.
+
+. Deploy Pulp using Ansible
+. Manage Pulp with Ansible?
+
+
+=== Deploy
+
+* [.step.strike]#Ansible: `pulp_installer` collection#
+* OCI containers: in two flavors
+* Kubernetes
+* PyPI
+
+
+=== Manage
+
+Ansible Collection `pulp.squeezer`
+
+Not much information, but sufficient to get started.

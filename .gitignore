@@ -1,0 +1,5 @@
+# Ignore the revealjs directory
+reveal.js/
+
+# Ignore rendered results
+*.html

@@ -1,0 +1,41 @@
+== Pulp 101
+
+Want to mirror a repository?
+
+[%step]
+. Repository
+. Remote && Sync
+. Publication
+. Distribution
+
+
+=== Make it go
+
+Tell Pulp to act using:
+
+* `pulp-cli`
+* HTTP API
+
+
+=== Ansible?
+
+I thought you said we could manage Pulp using Ansible?
+
+
+=== `pulp.squeezer`
+
+Ansible Collection
+
+* `pulp.squeezer.artifact`
+* `pulp.squeezer.rpm_distribution`
+* `pulp.squeezer.rpm_publication`
+* `pulp.squeezer.rpm_remote`
+* `pulp.squeezer.rpm_repository`
+* `pulp.squeezer.rpm_sync`
+
+
+=== Automatic mirror(s)
+
+Here he goes again...
+
+Demo?

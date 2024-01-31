@@ -1,0 +1,21 @@
+== What are you on about?
+
+* Software Repositories
+* Pulp
+* Ansible
+* Collection `pulp.squeezer`
+* How I got on with it
+
+
+=== Who are you even?
+
+* Stefan Joosten
+* (LOGO HERE) link:https://www.atcomputing.nl[AT Computing]
+* Family
+* Volunteer at link:https://www.homecomputermuseum.nl[HomeComputerMuseum]
+
+[.notes]
+--
+* Add logos
+* stickerbomb it a bit?
+--

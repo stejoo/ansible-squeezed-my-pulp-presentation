@@ -1,0 +1,28 @@
+== Client has this problem
+
+They want to deploy Linux virtual machines without internet connectivity.
+
+
+=== Partially solved
+
+* Apache, `reposync` and shell scripts
+* local RPM repository mirror
+* various static files
+
+
+=== Desires
+
+Main objective: offline deployment
+
+Would like to have:
+
+* Debian and Red Hat package mirrors
+* custom package repositories
+* internal Python repository
+* Ansible collections
+* container image repository?
+
+
+=== Solution?
+
+Pulp? Pulp!

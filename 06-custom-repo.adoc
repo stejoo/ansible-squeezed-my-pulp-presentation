@@ -1,0 +1,28 @@
+== Custom Repository
+
+Let's host our own content!
+
+
+=== How do I... ?
+
+Road less traveled.
+
+Documentation for the "content plugins" is written and contains examples.
+
+The same can not be said about doing this with `pulp.squeezer`.
+
+
+=== Build our own road
+
+
+
+=== Trials and tribulations
+
+Not all operations required supported by `pulp.squeezer`.
+
+Call the HTTP API.
+
+
+=== Stay awhile and listen
+
+About to enter... the Playbook zone.

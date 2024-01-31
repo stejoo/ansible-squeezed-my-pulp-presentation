@@ -1,0 +1,22 @@
+= Ansible squeezed my Pulp
+:revealjs_theme: sky
+:revealjs_width: 1040
+:source-highlighter: highlight.js
+:author: Stefan Joosten <stefan@atcomputing.nl>
+:date: 2024-01-09
+
+include::01-intro.adoc[]
+
+include::02-problem.adoc[]
+
+include::03-ansible.adoc[]
+
+include::04-deploy.adoc[]
+
+include::05-administer.adoc[]
+
+include::06-custom-repo.adoc[]
+
+== Thank you!
+
+Questions?
