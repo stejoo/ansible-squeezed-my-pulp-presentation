@@ -1,5 +1,5 @@
 = Ansible squeezed my Pulp
-:revealjs_theme: sky
+:revealjs_customtheme: themes/at-sky.css
 :revealjs_width: 1040
 :source-highlighter: highlight.js
 :author: Stefan Joosten <stefan@atcomputing.nl>
