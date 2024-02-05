@@ -1,0 +1,21 @@
+== Updates
+
+Progress, even better?
+
+=== New release
+
+`pulp.squeezer v0.0.14`
+
+[%step]
+* No `CHANGELOG`? See git log and changes
+* adds `api_call` module, I can replace `get_url`
+* depends on `pulp_glue` Python module (`>=0.19.0,<0.20.0`)
+* `pulp_glue` only mentioned in `requirements.txt`
+
+=== Contributing
+
+I added a feature and was preparing a PR.
+
+Release `v0.0.14` happened and I ran into some trouble (with `pulp_glue`).
+
+Will rebase (soon™).
