@@ -43,8 +43,13 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   --r-selection-color: #fff;
 }
 
+/**
+ * AT blue: #3399cc
+ * AT background lab?: #006699
+ * AT new logo blue?: #007fff
+ */
 .reveal-viewport {
-  background: #006699;
+  background: #3399cc;
   background: -moz-radial-gradient(center, circle cover, #f7fbfc 0%, #006699 100%);
   background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #f7fbfc), color-stop(100%, #006699));
   background: -webkit-radial-gradient(center, circle cover, #f7fbfc 0%, #006699 100%);
