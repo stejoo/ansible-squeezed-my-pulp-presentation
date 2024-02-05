@@ -7,13 +7,13 @@ Let's host our own content!
 
 Road less traveled.
 
-Documentation for the "content plugins" is written and contains examples.
+Documentation for the Pulp content plugins is available and contains examples (for `pulp-cli` and/or API).
 
-The same can not be said about doing this with `pulp.squeezer`.
-
+Less so for `pulp.squeezer`... But the project's link:https://github.com/pulp/squeezer/tree/develop/tests/playbooks[tests/playbooks/] directory contains interesting code!
 
 === Build our own road
 
+Using the nice modules provided by the collection.
 
 
 === Trials and tribulations
