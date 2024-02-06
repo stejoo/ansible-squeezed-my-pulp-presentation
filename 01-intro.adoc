@@ -11,6 +11,7 @@
 
 * Stefan Joosten
 * link:https://www.atcomputing.nl[AT Computing]
+** Job? Email: `devnull@atcomputing.nl`
 * Volunteer at link:https://www.homecomputermuseum.nl[HomeComputerMuseum]
 
 [.notes]
