@@ -1,0 +1,8 @@
+= Ansible Squeezed My Pulp
+
+My presentation about using the Ansible `pulp.squeezer` collection to manage Pulp.
+
+== Building it
+
+It's written in AsciiDoc and I used AsciiDoctor and reveal.js to render it into something
+presentable. Documentation at: https://docs.asciidoctor.org/reveal.js-converter/latest/
