@@ -6,3 +6,21 @@ My presentation about using the Ansible `pulp.squeezer` collection to manage Pul
 
 It's written in AsciiDoc and I used AsciiDoctor and reveal.js to render it into something
 presentable. Documentation at: https://docs.asciidoctor.org/reveal.js-converter/latest/
+
+=== HOWTO
+
+. Clone this repository
+. Get release `4.5.0` of reveal.js as well:
++
+[source,bash]
+----
+git clone -b 4.5.0 --depth 1 https://github.com/hakimel/reveal.js.git
+----
+. Build it using the `asciidoctor/docker-asciidoctor` container image:
++
+[source,bash]
+----
+podman run -it -v ${PWD}:/documents/:Z docker.io/asciidoctor/docker-asciidoctor asciidoctor-revealjs presentation.adoc
+----
+
+That should render and output a `presentation.html` file you can open in your browser.
