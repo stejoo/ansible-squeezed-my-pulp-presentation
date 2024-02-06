@@ -24,7 +24,7 @@ $ mkdir -p \
   containers \
   pgsql \
   pulp_storage/tmp \
-  settings/certs \
+  settings/certs
 --
 
 === Settings
