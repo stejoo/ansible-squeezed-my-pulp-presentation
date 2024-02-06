@@ -27,3 +27,5 @@ include::07-future.adoc[]
 And I would like to thank the Pulp developers!
 
 Any questions / remarks?
+
+`https://github.com/stejoo`
